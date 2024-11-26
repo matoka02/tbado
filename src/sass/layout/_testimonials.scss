@@ -26,6 +26,7 @@
 }
 
 .review__wrapper {
+  height: 100%;
   padding: 38px;
   border-radius: 15px;
 
@@ -83,6 +84,16 @@
 /*=====SWIPER=====*/
 
 .testimonials__wrapper {
+  @media screen and (min-width: 1440px) {
+    & .swiper-slide.review__card {
+      height: auto;
+
+      & .review__wrapper{
+        justify-content: space-between;
+      }
+    }
+  }
+
   & .swiper-pagination-bullet-active {
     background: linear-gradient(to right, $gradient-start, $gradient-end);
     transform: scale(1.5);
