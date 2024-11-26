@@ -12,6 +12,8 @@ body {
   @include font-poppins(400);
   font-size: 1.4rem;
   line-height: 1.72;
+
+  background-color: $primary-color-theme;
 }
 
 h1,
