@@ -1,0 +1,1 @@
+import variedSwiper from './js/swiper';
