@@ -1,0 +1,15 @@
+@import '../base/mixins';
+
+.title{
+  @include font-poppins(600);
+  font-size: 3.200rem;
+  line-height: 1.31;
+  color: $black-text-color;
+}
+
+.title__label{
+  padding-top: 6px;
+  @include font-poppins(400);
+  font-size: 1.400rem;
+  color: #999999;
+}
