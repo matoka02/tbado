@@ -2,7 +2,7 @@
 .container {
   margin: 0 auto;
   padding: 0 10px;
-  // background-color: $via-magenta;
+  background-color: $via-magenta;
 }
 
 // 414px - 767px
@@ -24,15 +24,14 @@
 @media screen and (min-width: 1280px) {
   .container {
     max-width: 1216px;
-    padding: 0 80px;
   }
 }
 
 // 1440px +
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1216px;
-    padding: 0 112px;
+    // max-width: 1216px;
+    // padding: 0 112px;
   }
 }
 
