@@ -75,7 +75,10 @@ $main-gradient:  linear-gradient(91deg, rgba(255, 104, 1, 0.80) 0.72%, rgba(255,
 
 // all size
 .hero__wrapper {
+  padding: 34px 32px 34px 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 16px;
 }
+
