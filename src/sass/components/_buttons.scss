@@ -42,3 +42,30 @@
     }
   }
 }
+
+.btn-contact-form {
+  padding: 21px 0;
+  width: 100%;
+
+  @include font-poppins(600);
+  font-size: 1.600rem;
+  line-height: 1.12;
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  color: $primary-color-theme;
+
+  border-radius: 4px;
+  border: 1px solid $primary-color-theme;
+  background-color: $accent;
+
+  &:hover,
+  &:focus {
+    color: $accent;
+    background-color: $primary-color-theme;
+  }
+
+  &:disabled {
+    background-color: $primary-text-color;
+  }
+}
