@@ -1,0 +1,44 @@
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-main {
+  padding: 4.5px 16px;
+  width: 152px;
+
+  border-radius: 15px;
+  border: 1px solid $primary-color-theme;
+
+  @include font-poppins(600);
+  font-size: 1.400rem;
+  line-height: 3.35;
+  text-align: center;
+  text-transform: capitalize;
+
+  & p {
+    background-color: $accent;
+    background-image: linear-gradient(to right, $gradient-start, $gradient-end);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: all 0.3s ease;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $accent;
+
+    & p {
+      color: $primary-color-theme;
+
+      background-color: transparent;
+      background-image: none;
+      background-clip: unset;
+      -webkit-background-clip: unset;
+      -webkit-text-fill-color: $primary-color-theme;
+    }
+  }
+}
