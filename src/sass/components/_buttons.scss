@@ -18,6 +18,8 @@
   text-align: center;
   text-transform: capitalize;
 
+  transition: all 0.3s ease;
+
   & p {
     background-color: $accent;
     background-image: linear-gradient(to right, $gradient-start, $gradient-end);
@@ -58,6 +60,8 @@
   border-radius: 4px;
   border: 1px solid $primary-color-theme;
   background-color: $accent;
+
+  transition: all 0.3s ease;
 
   &:hover,
   &:focus {
